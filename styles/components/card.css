@@ -1,0 +1,58 @@
+.card {
+  background-color: khaki;
+  border-radius: 10px;
+  border: rgb(60, 0, 128) 5px solid;
+  margin-top: 3px;
+
+}
+
+.card__question {
+  font-size: 1.6rem;
+  color: hotpink;
+  display: flex;
+  justify-content: center;
+  margin-top: 3px;
+  margin-bottom: 2px;
+}
+
+.card__content {
+  color: rgb(25, 26, 27);
+  font-size: 1.3rem;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  margin-top: 1px;
+}
+
+.card__bookmark {
+}
+
+
+.card__taglist {
+display: flex;
+justify-content: center;
+
+}
+
+
+.card__tag {
+color: lightseagreen;
+background-color: rgb(165, 96, 244);
+border-radius: 4px;
+margin: 15px; 
+padding: 2px;
+}
+
+.card__button {
+display: flex;
+justify-content: center;
+}
+
+.card__button--show-answer {
+color: rgb(37, 37, 37);
+background-color: lightpink;
+font-size: 1.2rem;
+border: 4px;
+border-radius: 14px;
+margin-bottom: 30px;
+cursor: pointer;
