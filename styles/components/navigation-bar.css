@@ -1,0 +1,11 @@
+.navigation-bar {
+  background-color: rgb(165, 96, 244);
+  border: 2px solid black;
+  padding: 24px;
+  margin: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
