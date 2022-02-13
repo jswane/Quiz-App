@@ -3,8 +3,8 @@
   border-radius: 10px;
   border: rgb(60, 0, 128) 5px solid;
   height: 300px;
-  margin-top: 3px;
-  margin-block-end: 50px;
+  display: flex;
+  justify-content: center;
 }
 
 .card__question {
@@ -57,5 +57,6 @@ background-color: lightpink;
 font-size: 1.3rem;
 border: 4px;
 border-radius: 14px;
-margin-bottom: 30px;
 cursor: pointer;
+display: flex;
+justify-content: center;
