@@ -1,19 +1,22 @@
 .card {
-  background-color: khaki;
+  background-color: rgb(60, 94, 91);
   border-radius: 10px;
-  border: rgb(60, 0, 128) 3px solid;
+  box-shadow: 10px 10px;
   height: 300px;
+  width: 90%;
+  margin: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 20px;
   position: relative;
+  scroll-behavior: auto;
 }
 
 .card__question {
   font-size: 1.4rem;
-  color: black;
+  color: white;
   display: flex;
   justify-content: center;
   margin-top: 10px;
@@ -21,35 +24,42 @@
 
 .card__content {
   color: #db1cbb;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
+  text-shadow: 1px 2px black, 0 0 25px rgb(181, 181, 223),
+    0 0 5px rgb(95, 95, 121);
   padding: 20px;
   margin: 3px;
 }
 
 .card__taglist {
   display: flex;
+  list-style: none;
 }
 
 .card__tag {
   color: black;
-  background-color: rgb(255, 210, 232);
+  background-color: rgb(238, 238, 238);
+  border: none;
   border-radius: 20px;
+  box-shadow: 5px 5px;
   margin: 20px;
-  padding: 7px;
-  border: 2px solid black;
+  padding: 10px;
+  cursor: pointer;
 }
 
 .card__button--show-answer {
   color: black;
-  background-color: lightpink;
+  background-color: rgb(150, 170, 179);
   font-size: 1.4rem;
-  border: 1px solid black;
-  border-radius: 10px;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 5px 5px;
   cursor: pointer;
   display: flex;
   justify-content: center;
   width: 150px;
   margin-bottom: 10px;
+  padding: 5px;
 }
 
 .card__bookmark {
@@ -58,4 +68,5 @@
   height: 80px;
   right: 1px;
   top: -20px;
+  cursor: pointer;
 }
