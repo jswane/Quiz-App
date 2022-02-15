@@ -1,0 +1,32 @@
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: ;
+}
+
+.form-container__title {
+  font-size: larger;
+}
+/*funktioniert nicht, Felder sind eckig*/
+.form-container__add {
+  border-radius: 10px 10px;
+  box-shadow: 5px 5px;
+  color: rgb(16, 61, 61);
+}
+
+.form__button--submit {
+  margin-top: 1rem;
+  padding: 15px;
+  width: 130px;
+  background-color: rgb(150, 170, 179);
+  border-radius: 18px;
+  color: black;
+  font-weight: bold;
+  font-size: 1rem;
+  letter-spacing: 0.05rem;
+  border: none;
+  cursor: pointer;
+}
