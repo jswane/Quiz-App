@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@600&display=swap');
 
 * {
-    box-sizing: border-box;
-  }
+  box-sizing: border-box;
+}
 
 html {
-    background-color: hotpink;
+  background-color: hotpink;
 }
 
 header {
-    font-family: 'Mukta', sans-serif;
-    font-size: larger;
-    background-color: indigo;
+  font-family: 'Mukta', sans-serif;
+  font-size: larger;
+  background-color: indigo;
 }
