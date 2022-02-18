@@ -6,10 +6,25 @@
 }
 
 .profile-picture {
-  border-radius: 10px;
-  margin: 30px;
+  border-radius: 30px;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 .profile-name {
-  margin: 10 px;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.profile-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: honeydew;
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 20px;
+  margin: 30px;
 }
