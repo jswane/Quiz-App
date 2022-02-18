@@ -2,14 +2,44 @@
 
 * {
   box-sizing: border-box;
+  font-family: 'Mukta', sans-serif;
+  padding: 0;
+  margin: 0;
 }
 
 html {
-  background-color: hotpink;
+  background-color: rgb(124, 158, 158);
 }
 
-header {
-  font-family: 'Mukta', sans-serif;
-  font-size: larger;
-  background-color: indigo;
+body {
+  margin-top: 5px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 1.8rem;
+  width: 90%;
+  height: 48px;
+  background-color: rgb(150, 170, 179);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  margin-bottom: 1px;
+}
+
+main {
+  overflow-y: auto;
+}
+
+.container {
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }

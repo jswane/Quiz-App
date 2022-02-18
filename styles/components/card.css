@@ -1,59 +1,69 @@
 .card {
-  background-color: khaki;
+  background-color: honeydew;
   border-radius: 10px;
-  border: rgb(60, 0, 128) 5px solid;
+  box-shadow: 10px 10px;
   height: 300px;
-  margin-top: 3px;
-  margin-block-end: 50px;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  position: relative;
+  scroll-behavior: auto;
 }
 
 .card__question {
-  font-size: 1.6rem;
-  color: hotpink;
+  font-size: 1.4rem;
+  color: rgb(15, 13, 13);
   display: flex;
   justify-content: center;
-  margin-top: 3px;
-  margin-bottom: 2px;
+  margin-top: 10px;
 }
 
 .card__content {
-  color: rgb(25, 26, 27);
-  font-size: 1.3rem;
-  display: flex;
-  justify-content: center;
+  color: black;
+  font-size: 1.6rem;
   padding: 20px;
-  margin-top: 1px;
-}
-
-.card__bookmark {
+  margin: 3px;
 }
 
 .card__taglist {
   display: flex;
-  justify-content: center;
+  list-style: none;
 }
 
 .card__tag {
-  color: lightseagreen;
-  background-color: rgb(165, 96, 244);
-  border-radius: 4px;
-  margin: 15px;
-  padding: 2px;
-}
-
-/* unsicher, ob das überhaupt greifen kann, da sich nichts verändert*/
-.card__button {
-  display: flex;
-  justify-content: center;
-  font-size: 3rem;
+  color: black;
+  background-color: rgb(153, 174, 175);
+  border: none;
+  border-radius: 20px;
+  box-shadow: 5px 5px;
+  margin: 20px;
+  padding: 10px;
+  cursor: pointer;
 }
 
 .card__button--show-answer {
-  color: rgb(37, 37, 37);
-  background-color: lightpink;
-  font-size: 1.3rem;
-  border: 4px;
-  border-radius: 14px;
-  margin-bottom: 30px;
+  color: black;
+  background-color: rgb(185, 135, 187);
+  font-size: 1.4rem;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 5px 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  width: 150px;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.card__bookmark {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  right: 1px;
+  top: -20px;
   cursor: pointer;
 }
