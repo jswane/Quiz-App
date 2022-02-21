@@ -10,7 +10,7 @@ cardSet.forEach(card => {
   });
 });
 
-/* cardSet.forEach((card) => {
+cardSet.forEach(card => {
   const bookmark = card.querySelector('[data-js=bookmark]');
   const answerButton = card.querySelector('.card__button--show-answer');
 
@@ -29,4 +29,4 @@ cardSet.forEach(card => {
 
     answerButton.nextElementSibling.classList.toggle('hidden');
   });
-}); */
+});
