@@ -1,0 +1,29 @@
+.hidden {
+  display: none;
+}
+
+.bookmark {
+  stroke: black;
+  fill: white;
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  right: 20px;
+  top: -5px;
+  cursor: pointer;
+}
+
+.bookmark-booked {
+  stroke: black;
+  fill: black;
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  right: 20px;
+  top: -5px;
+  cursor: pointer;
+}
+
+.background-change {
+  background-color: rgb(210, 218, 175);
+}
