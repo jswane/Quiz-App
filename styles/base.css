@@ -11,15 +11,6 @@ html {
   background-color: rgb(124, 158, 158);
 }
 
-body {
-  margin-top: 5px;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
 h1 {
   font-size: 1.8rem;
   width: 90%;
@@ -28,8 +19,7 @@ h1 {
   border-radius: 10px;
   display: flex;
   justify-content: center;
-  margin: 20px;
-  margin-bottom: 1px;
+  margin: 30px auto 1px;
 }
 
 main {
@@ -42,4 +32,12 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+textarea {
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
 }
